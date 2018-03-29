@@ -3,7 +3,6 @@ module.exports = {
     title: 'Gatsby Default Starter', //TODO: Fix title
     desc: 'A new blog',
   },
-  pathPrefix: '/vaccinexperten',
   plugins: [
     // Makes Gatsby work with Helmet
     'gatsby-plugin-react-helmet',
@@ -40,3 +39,5 @@ module.exports = {
     },
   ],
 }
+
+// pathPrefix: '/vaccinexperten',
